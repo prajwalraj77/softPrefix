@@ -18,6 +18,9 @@ export const metadata: Metadata = {
   },
   twitter: { card: "summary_large_image", title: seo.title, description: seo.description },
   robots: { index: true, follow: true },
+  icons: {
+    icon: "/brand/favicon.png",
+  },
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
